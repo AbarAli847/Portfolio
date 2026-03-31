@@ -124,7 +124,7 @@ export function Hero() {
               <Github className="h-6 w-6" />
             </motion.a>
             <motion.a
-              href="www.linkedin.com/in/abrar-ali-958418375"
+              href="https://www.linkedin.com/in/abrar-ali-958418375/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, y: -2 }}

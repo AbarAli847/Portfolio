@@ -5,17 +5,17 @@ export function Footer() {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/Mazharcodemaster',
+      url: 'https://github.com/AbarAli847',
       icon: FaGithub,
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/mazhar-manzoor-413726285/',
+      url: 'www.linkedin.com/in/abrar-ali-958418375',
       icon: FaLinkedin,
     },
     {
       name: 'Email',
-      url: 'https://mail.google.com/mail/?view=cm&fs=1&to=mazharkamboh914@gmail.com&su=Hello%20Mazhar&body=I%20want%20to%20connect%20with%20you.',
+      url: 'abraraliengineer@gmail.com.',
       icon: FaEnvelope,
     },
   ];
@@ -58,7 +58,7 @@ export function Footer() {
               >
                 <FaHeart className="h-4 w-4 text-red-500" />
               </motion.span>
-              <span>by Mazhar Manzoor</span>
+              <span>by Engineer Abrar Ali</span>
             </p>
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} All rights reserved.

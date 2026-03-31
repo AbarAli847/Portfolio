@@ -8,7 +8,7 @@ export function AboutSection() {
     {
       icon: GraduationCap,
       title: 'Education',
-      description: 'Associate Degree in Computer Science from Riphah International University',
+      description: 'Bachelor’s degree in Software Engineering from The University of Faisalabad',
     },
     {
       icon: Code2,
@@ -23,7 +23,7 @@ export function AboutSection() {
   {
     icon: Users,
     title: 'Collaboration',
-    description: 'Experienced in working with diverse teams at both ArSwift and ACME ONE Software. I actively contribute to code reviews and have a track record of mentoring junior developers, fostering a culture of shared learning and continuous improvement.',
+    description: 'I have experience working with diverse teams at HCC and currently at National Wireless Private Limited. I actively contribute to code reviews and have a track record of mentoring junior developers, fostering a culture of shared learning and continuous improvement.',
   },
   ];
 
@@ -44,7 +44,7 @@ export function AboutSection() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              I hold an Associate Degree in Computer Science from Riphah International University and have completed professional certifications in web and mobile application development from SMIT Fsd. I am passionate about creating modern, scalable applications that solve real-world problems.
+              I hold a degree in Software Engineering from The University of Faisalabad and have completed professional certifications in Web and Mobile Application Development from SMIT Faisalabad. I am passionate about building modern, scalable applications that solve real-world problems using technologies like React, Next.js, and Node.js.
 
           </p>
         </motion.div>
