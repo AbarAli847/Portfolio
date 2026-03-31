@@ -73,8 +73,8 @@ export function ContactSection() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'mazharkamboh914@gmail.com',
-      href: 'mailto:mazharkamboh914@gmail.com',
+      value: 'abraraliengineer@gmail.com',
+      // href: ',
     },
     {
       icon: Phone,

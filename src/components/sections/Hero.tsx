@@ -1,19 +1,24 @@
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-import { ArrowRight, Download, Github, Linkedin } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { FaReact, FaNodeJs, FaJs } from 'react-icons/fa';
-import { SiMongodb, SiExpress, SiTypescript, SiNextdotjs } from 'react-icons/si';
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { ArrowRight, Download, Github, Linkedin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { FaReact, FaNodeJs, FaJs } from "react-icons/fa";
+import {
+  SiMongodb,
+  SiExpress,
+  SiTypescript,
+  SiNextdotjs,
+} from "react-icons/si";
 
 export function Hero() {
   const techIcons = [
-    { Icon: FaReact, name: 'React', color: '#61DAFB' },
-    { Icon: SiNextdotjs, name: 'Next.js', color: '#000000' },
-    { Icon: FaNodeJs, name: 'Node.js', color: '#339933' },
-    { Icon: SiMongodb, name: 'MongoDB', color: '#47A248' },
-    { Icon: SiExpress, name: 'Express', color: '#000000' },
-    { Icon: SiTypescript, name: 'TypeScript', color: '#3178C6' },
-    { Icon: FaJs, name: 'JavaScript', color: '#F7DF1E' },
+    { Icon: FaReact, name: "React", color: "#61DAFB" },
+    { Icon: SiNextdotjs, name: "Next.js", color: "#000000" },
+    { Icon: FaNodeJs, name: "Node.js", color: "#339933" },
+    { Icon: SiMongodb, name: "MongoDB", color: "#47A248" },
+    { Icon: SiExpress, name: "Express", color: "#000000" },
+    { Icon: SiTypescript, name: "TypeScript", color: "#3178C6" },
+    { Icon: FaJs, name: "JavaScript", color: "#F7DF1E" },
   ];
 
   return (
@@ -67,7 +72,7 @@ export function Hero() {
             transition={{ delay: 0.7 }}
             className="text-2xl sm:text-3xl lg:text-4xl text-muted-foreground"
           >
-            Full Stack Developer
+            Frontend Developer
           </motion.h2>
 
           {/* Description */}
@@ -77,7 +82,12 @@ export function Hero() {
             transition={{ delay: 0.9 }}
             className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed"
           >
-            I am Full Stack Developer with hands-on experience in building scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Skilled in designing responsive UIs, developing robust backend APIs, and integrating third-party services like Stripe and Firebase. Passionate about clean code, performance optimization, and delivering user-focused solutions. Proven ability to work in both startup and team environments.
+            Front-End Developer with 2+ year of experience building scalable and
+            responsive web applications. Skilled in **JavaScript, React.js,
+            Next.js, and the MERN stack. Experienced in API integration, state
+            management, and responsive design. Passionate about continuous
+            learning, delivering high-quality code, and contributing to team and
+            company success.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -103,7 +113,6 @@ export function Hero() {
                 Download Resume
               </a>
             </Button>
-
           </motion.div>
 
           {/* Social Links */}
@@ -115,7 +124,6 @@ export function Hero() {
           >
             <motion.a
               href="https://github.com/AbarAli847"
-
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, y: -2 }}
@@ -131,7 +139,7 @@ export function Hero() {
               className="p-3 rounded-full bg-muted/50 hover:bg-primary/10 transition-colors"
             >
               <Linkedin className="h-6 w-6" />
-            </motion.a> 
+            </motion.a>
           </motion.div>
 
           {/* Tech Stack */}
@@ -151,11 +159,9 @@ export function Hero() {
                   transition={{ delay: 1.7 + index * 0.1 }}
                   whileHover={{ scale: 1.2, y: -5 }}
                   className="p-3 rounded-xl bg-muted/30 backdrop-blur-sm hover:bg-muted/50 transition-colors cursor-pointer group"
-                  style={{ '--tech-color': tech.color } as React.CSSProperties}
+                  style={{ "--tech-color": tech.color } as React.CSSProperties}
                 >
-                  <tech.Icon
-                    className="h-8 w-8 text-muted-foreground group-hover:text-[var(--tech-color)] transition-colors"
-                  />
+                  <tech.Icon className="h-8 w-8 text-muted-foreground group-hover:text-[var(--tech-color)] transition-colors" />
                 </motion.div>
               ))}
             </div>

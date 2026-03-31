@@ -10,7 +10,7 @@ export function Footer() {
     },
     {
       name: 'LinkedIn',
-      url: 'www.linkedin.com/in/abrar-ali-958418375',
+      url: 'https://www.linkedin.com/in/abrar-ali-958418375/',
       icon: FaLinkedin,
     },
     {

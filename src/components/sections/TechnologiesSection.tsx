@@ -64,7 +64,6 @@ const iconMap: Record<string, React.ComponentType<any>> = {
   SiLinux,
   SiUbuntu,
   SiNginx,
-  // SiAmazonaws,
   SiExpo,
   SiReactrouter,
   SiReact,
