@@ -232,19 +232,7 @@ export function ContactSection() {
               </CardContent>
             </AnimatedCard>
 
-            {/* <AnimatedCard delay={0.4}>
-              <CardContent className="text-center p-8">
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="space-y-4"
-                >
-                  <h3 className="text-xl font-semibold">Let's Build Something Amazing</h3>
-                  <p className="text-muted-foreground">
-                    I'm always excited to work on new projects and collaborate with like-minded people.
-                  </p>
-                </motion.div>
-              </CardContent>
-            </AnimatedCard> */}
+            
           </div>
         </div>
       </div>
